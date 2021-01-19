@@ -1,0 +1,16 @@
+$classnamesMap: (
+    bg-deep-earth: "deep-earth",
+    bg-night-arcade: "night-arcade",
+    bg-soccer-team: "soccer-team",
+    bg-grid: "grid",
+    bg-from-above: "from-above",
+    bg-pocket-borealis: "pocket-borealis",
+    bg-fisheye: "fisheye",
+    bg-curiosity: "curiosity"
+);
+
+@each $var, $val in $classnamesMap {
+    .#{$var} {
+        background-image: url('../images/mobile/image-#{$val}.jpg');
+    }
+}
