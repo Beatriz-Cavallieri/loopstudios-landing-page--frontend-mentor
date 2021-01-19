@@ -1,0 +1,145 @@
+:root {
+    --dark-gray: hsl(0, 0%, 55%);
+    --very-dark-gray: hsl(0, 0%, 41%);
+}
+
+body, #landing-page {
+    font-size: 15px;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor-with-background {
+    background-color: black;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 1.8rem ;
+    height: 5em;
+    align-items: flex-end;
+    display: flex;
+}
+
+.icon--social-media {
+    height: 2rem;
+    margin: 0.5rem;
+}
+
+#landing-page h1 {
+    font-size: 2.4rem;
+}
+
+#landing-page h2 {
+    font-size: 2rem;
+}
+
+#landing-page img {
+    max-width: 100%;
+}
+
+#landing-page .logo-img {
+    height: 1.6rem;
+}
+
+#landing-page ul {
+    list-style: none;
+    padding: 0;
+}
+
+#landing-page button {
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: "Alata";
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.3em;
+    padding: 0.8em 3em;
+    text-transform: uppercase;
+}
+
+#landing-page header {
+    background-image: url("../images/mobile/image-hero.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#landing-page header, #landing-page main, #landing-page footer {
+    padding: 3rem 1.8rem;
+}
+
+#landing-page p {
+    font-family: "Alata";
+    font-weight: 400;
+    color: var(--dark-gray);
+}
+
+#landing-page header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#landing-page #headline {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#landing-page header h1 {
+    border: 2px solid white;
+    padding: 1.2rem;
+}
+
+#landing-page header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#landing-page section {
+    text-align: center;
+    margin: 3rem 0 6rem 0;
+}
+
+#landing-page footer {
+    background-color: black;
+    color: white;
+    font-family: "Alata";
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

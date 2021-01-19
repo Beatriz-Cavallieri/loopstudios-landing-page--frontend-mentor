@@ -13,18 +13,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
     rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
   <div id="landing-page">
     <header>
       <nav>
-        <img src="./images/logo.svg" alt="Loopstudios" />
+        <img class="logo-img" src="./images/logo.svg" alt="Loopstudios" />
         <img src="./images/icon-hamburger.svg" alt="Menu" />
         <div id="menu" style="display: none;">About Careers Events Products Support</div>
       </nav>
       <div id="headline">
-        <h1>Immersive experiences that deliver</h1>
+        <h1>Immersive experiences that
+          <br>
+          deliver
+        </h1>
       </div>
     </header>
     <main>
@@ -41,68 +46,82 @@
         <h2> Our creations</h2>
         <button>See all</button>
         <a href="#" class="anchor-with-background">
-          Deep earth
-
+          <span>Deep <br> earth</span>
         </a>
         <a href="#" class="anchor-with-background">
-          Night arcade
+          <span>Night <br> arcade</span>
         </a>
         <a href="#" class="anchor-with-background">
-          Soccer team VR
+          <span>Soccer <br> team VR</span>
         </a>
         <a href="#" class="anchor-with-background">
-          The grid
+          <span>The <br> grid</span>
         </a>
         <a href="#" class="anchor-with-background">
-
-          From up above VR
+          <span>From up <br> above VR</span>
         </a>
         <a href="#" class="anchor-with-background">
-
-          Pocket borealis
+          <span> Pocket <br> borealis</span>
         </a>
         <a href="#" class="anchor-with-background">
-          The curiosity
+          <span>The <br> curiosity</span>
         </a>
         <a href="#" class="anchor-with-background">
-          Make it fisheye
+          <span>Make it <br> fisheye</span>
         </a>
       </section>
     </main>
     <footer>
-      <img src="./images/logo.svg" alt="Loopstudios" />
-      <nav>
-        <a href="#">About</a>
-        <a href="#">Careers</a>
-        <a href="#">Events</a> 
-        <a href="#">Products Support</a>
-      </nav>
+      <img class="logo-img" src="./images/logo.svg" alt="Loopstudios" />
+      <ul class="vertical">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Events</a>
+        </li>
+        <li>
+          <a href="#">Products Support</a>
+        </li>
+      </ul>
       <!-- ---- Links para redes sociais ---- -->
-      <nav>
-        <a href="#">
-          <span>
-            <img src="./images/icon-facebook.svg" alt="Facebook">
-          </span>
-        </a>
-        <a href="#">
-          <span>
-            <img src="./images/icon-twitter.svg" alt="Twitter">
-          </span>
-        </a>
-        <a href="#">
-          <span>
-            <img src="./images/icon-pinterest.svg" alt="Pinterest">
-          </span>
-        </a>
-        <a href="#">
-          <span>
-            <img src="./images/icon-instagram.svg" alt="Instagram">
-          </span>
-        </a>
-      </nav>
+      <ul class="horizontal">
+        <li>
+          <a href="#">
+            <span class="icon--social-media">
+              <img src="./images/icon-facebook.svg" alt="Facebook">
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon--social-media">
+              <img src="./images/icon-twitter.svg" alt="Twitter">
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon--social-media">
+              <img src="./images/icon-pinterest.svg" alt="Pinterest">
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon--social-media">
+              <img src="./images/icon-instagram.svg" alt="Instagram">
+            </span>
+          </a>
+        </li>
+      </ul>
       <p class="copyright">
         © 2021 Loopstudios. All rights reserved.
       </p>
     </footer>
 </body>
+
 </html>
